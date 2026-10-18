@@ -1,188 +1,52 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Car Max - avtomehanična delavnica v Spuhlji pri Ptuju.">
-    <title>Car Max | Avtomehanika Ptuj</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Neuradni predlog prenove spletne strani Car Max, avtomehanične delavnice v Spuhlji pri Ptuju.">
+  <title>Car Max | Avtomehanika Ptuj – demonstracija</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-
-<header>
-    <nav class="navbar">
-        <a href="#domov" class="logo">CAR<span>MAX</span></a>
-
-        <button class="menu-toggle" aria-label="Odpri meni" aria-expanded="false" aria-controls="nav-links">
-            ☰
-        </button>
-
-        <div class="nav-links" id="nav-links">
-            <a href="#domov">Domov</a>
-            <a href="#storitve">Storitve</a>
-            <a href="#onas">O nas</a>
-            <a href="#kontakt">Kontakt</a>
-        </div>
-    </nav>
-</header>
-
-<main>
-
-    <section class="hero" id="domov">
-        <div class="hero-content">
-            <p class="tagline">AVTOMEHANIKA • PTUJ</p>
-
-            <h1>
-                VAŠ AVTOMOBIL.<br>
-                <span>NAŠA SKRB.</span>
-            </h1>
-
-            <p class="description">
-                Car Max – avtomehanična delavnica v Spuhlji pri Ptuju.
-                Kontaktirajte nas za informacije o naših storitvah.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="tel:+38627763191" class="btn primary">
-                    Pokličite nas ↗
-                </a>
-
-                <a href="#storitve" class="btn secondary">
-                    Več informacij
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="storitve">
-        <div class="reveal">
-            <p class="section-label">CAR MAX</p>
-            <h2>NAŠE <span>STORITVE</span></h2>
-            <p class="section-description">
-                Za informacije o razpoložljivih storitvah nas kontaktirajte.
-            </p>
-        </div>
-
-        <div class="cards">
-
-            <div class="service-card reveal">
-                <div class="service-icon">⚙️</div>
-                <div class="card-number">01 / AVTOMEHANIKA</div>
-                <h3>Avtomehanične storitve</h3>
-                <p>
-                    Potrebujete informacije o servisu ali popravilu
-                    vašega vozila? Kontaktirajte našo delavnico.
-                </p>
-                <a href="tel:+38627763191" class="service-link">
-                    Pokličite nas <span>↗</span>
-                </a>
-            </div>
-
-            <div class="service-card reveal">
-                <div class="service-icon">📋</div>
-                <div class="card-number">02 / POVPRAŠEVANJA</div>
-                <h3>Informacije in povpraševanja</h3>
-                <p>
-                    Imate vprašanje glede svojega vozila?
-                    Za dodatne informacije nas lahko pokličete.
-                </p>
-                <a href="tel:+38627763191" class="service-link">
-                    Kontaktirajte nas <span>↗</span>
-                </a>
-            </div>
-
-            <div class="service-card reveal">
-                <div class="service-icon">📍</div>
-                <div class="card-number">03 / LOKACIJA</div>
-                <h3>Obiščite našo delavnico</h3>
-                <p>
-                    Nahajamo se v Spuhlji pri Ptuju.
-                    Oglejte si lokacijo in navodila za pot.
-                </p>
-                <a href="https://www.google.com/maps/search/?api=1&query=Spuhlja+2A+2250+Ptuj"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="service-link">
-                    Prikaži pot <span>↗</span>
-                </a>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="about-section" id="onas">
-        <div class="section about-content reveal">
-            <p class="section-label">O DELAVNICI</p>
-            <h2>CAR MAX <span>PTUJ</span></h2>
-            <p>
-                Car Max je avtomehanična delavnica v Spuhlji pri Ptuju.
-                Za informacije o storitvah in možnostih obiska nas
-                kontaktirajte po telefonu.
-            </p>
-
-            <a href="#kontakt" class="btn secondary">
-                Kontaktni podatki ↗
-            </a>
-        </div>
-    </section>
-
-    <section class="section contact" id="kontakt">
-
-        <div class="reveal">
-            <p class="section-label">STOPITE V STIK</p>
-            <h2>KONTAKTIRAJTE <span>NAS</span></h2>
-            <p class="section-description">
-                Za dodatne informacije nas pokličite ali obiščite.
-            </p>
-        </div>
-
-        <div class="contact-grid">
-
-            <div class="contact-card reveal">
-                <div class="contact-icon">☎</div>
-                <h3>Telefon</h3>
-                <a href="tel:+38627763191">02 776 31 91</a>
-            </div>
-
-            <div class="contact-card reveal">
-                <div class="contact-icon">⌖</div>
-                <h3>Lokacija</h3>
-                <p>Spuhlja 2 A, 2250 Ptuj</p>
-            </div>
-
-        </div>
-
-        <a class="btn primary directions"
-           href="https://www.google.com/maps/search/?api=1&query=Spuhlja+2A+2250+Ptuj"
-           target="_blank"
-           rel="noopener noreferrer">
-            Navodila za pot ↗
-        </a>
-
-        <div class="map-container reveal">
-            <iframe
-                title="Lokacija Car Max Avtomehanika"
-                src="https://maps.google.com/maps?q=Spuhlja%202A%2C%202250%20Ptuj&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                width="100%"
-                height="350"
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-
-    </section>
-
-</main>
-
-<footer>
-    <div class="footer-content">
-        <a href="#domov" class="logo">CAR<span>MAX</span></a>
-        <p>Avtomehanika • Spuhlja 2 A, Ptuj</p>
-        <small>Demonstracijska spletna stran – neuradni projekt.</small>
+  <div class="demo-strip">NEURADNA DEMONSTRACIJSKA SPLETNA STRAN · PREDLOG PRENOVE</div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#domov" aria-label="Car Max, na začetek">CAR<span>MAX</span></a>
+      <button class="menu-toggle" type="button" aria-label="Odpri meni" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+      <nav class="nav-links" id="nav-links" aria-label="Glavna navigacija">
+        <a href="#domov">Domov</a><a href="#storitve">Storitve</a><a href="#o-nas">O nas</a><a href="#delovni-cas">Delovni čas</a><a href="#kontakt">Kontakt</a>
+        <a class="nav-cta" href="mailto:servis@carmax.si?subject=Naro%C4%8Dilo%20na%20servis">Naroči servis ↗</a>
+      </nav>
     </div>
-</footer>
-
-<script src="script.js"></script>
-</body>
-</html>
+  </header>
+  <main>
+    <section class="hero" id="domov">
+      <div class="container hero-inner">
+        <p class="eyebrow">AVTOMEHANIKA · SPUHLJA PRI PTUJU</p>
+        <h1>VAŠ AVTOMOBIL.<br><span>NAŠA SKRB.</span></h1>
+        <p class="hero-description">Car Max – avtomehanična delavnica v Spuhlji pri Ptuju. Za informacije in naročanje na servis nas kontaktirajte.</p>
+        <div class="actions"><a class="btn btn-primary" href="tel:+38641604242">Pokličite za servis ↗</a><a class="btn btn-outline" href="#kontakt">Kontakt in lokacija</a></div>
+        <div class="hero-facts"><span>⌖ Spuhlja 2a, Ptuj</span><span>◷ Pon–pet 8.00–16.00</span></div>
+      </div>
+    </section>
+    <section class="section" id="storitve">
+      <div class="container">
+        <p class="eyebrow">CAR MAX</p><h2>VAŠA POT DO <span>SERVISA.</span></h2>
+        <p class="section-intro">Za podrobnosti o storitvah, razpoložljivih terminih in servisnih posegih se obrnite neposredno na delavnico.</p>
+        <div class="cards">
+          <article class="service-card"><div class="card-icon">⚙</div><h3>Avtomehanična delavnica</h3><p>Za informacije o vzdrževanju in popravilih vozil pokličite delavnico.</p><a href="tel:+38627763191">Pokliči delavnico →</a></article>
+          <article class="service-card"><div class="card-icon">▤</div><h3>Naročilo na servis</h3><p>Za dogovor o terminu uporabite mobilno številko ali pošljite e-pošto.</p><a href="mailto:servis@carmax.si?subject=Naro%C4%8Dilo%20na%20servis">Pošlji povpraševanje →</a></article>
+          <article class="service-card"><div class="card-icon">⌖</div><h3>Obiščite nas</h3><p>Delavnico najdete na naslovu Spuhlja 2a, 2250 Ptuj.</p><a href="https://www.google.com/maps/search/?api=1&query=Spuhlja+2a+2250+Ptuj" target="_blank" rel="noopener noreferrer">Prikaži pot →</a></article>
+        </div>
+      </div>
+    </section>
+    <section class="section section-alt" id="o-nas"><div class="container about-grid"><div><p class="eyebrow">O DELAVNICI</p><h2>CAR MAX <span>PTUJ.</span></h2></div><div><p>Car Max (Maks Mlakar s.p.) je avtomehanična delavnica na naslovu Spuhlja 2a pri Ptuju.</p><p>Za natančen opis storitev in terminov se obrnite na delavnico. Ta spletna stran je neuradni oblikovni predlog in ni uradna predstavitev podjetja.</p><a class="text-link" href="#kontakt">Kako do nas →</a></div></div></section>
+    <section class="section" id="delovni-cas"><div class="container hours-layout"><div><p class="eyebrow">KDAJ SMO NA VOLJO</p><h2>DELOVNI <span>ČAS.</span></h2><p class="section-intro">Pred obiskom lahko termin preverite po telefonu.</p><a class="btn btn-primary" href="tel:+38641604242">041 604 242 ↗</a></div><div class="hours-card"><div><span>Ponedeljek–petek</span><strong>08.00–16.00</strong></div><div><span>Sobota</span><strong>08.00–12.00</strong></div><div><span>Nedelja in prazniki</span><strong>Zaprto</strong></div></div></div></section>
+    <section class="section section-alt" id="kontakt"><div class="container"><p class="eyebrow">STOPITE V STIK</p><h2>KONTAKT IN <span>LOKACIJA.</span></h2><div class="contact-grid"><div class="contact-panel"><h3>Car Max – Maks Mlakar s.p.</h3><div class="contact-item"><small>NASLOV</small><a href="https://www.google.com/maps/search/?api=1&query=Spuhlja+2a+2250+Ptuj" target="_blank" rel="noopener noreferrer">Spuhlja 2a, 2250 Ptuj ↗</a></div><div class="contact-item"><small>TELEFON</small><a href="tel:+38627763191">02 776 31 91</a></div><div class="contact-item"><small>NAROČANJE NA SERVIS</small><a href="tel:+38641604242">041 604 242</a><a href="mailto:servis@carmax.si">servis@carmax.si</a></div><div class="contact-item"><small>SPLOŠNA E-POŠTA</small><a href="mailto:info@carmax.si">info@carmax.si</a></div></div><div class="map-wrap"><iframe title="Zemljevid lokacije Car Max, Spuhlja 2a" src="https://maps.google.com/maps?q=Spuhlja%202a%2C%202250%20Ptuj&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-main"><a class="brand" href="#domov">CAR<span>MAX</span></a><div><strong>Maks Mlakar s.p.</strong><p>Spuhlja 2a, 2250 Ptuj</p><p>ID za DDV: SI92717675</p><p>TRR: 0422-3011-1031-995</p></div><div><a href="tel:+38641604242">041 604 242</a><a href="mailto:info@carmax.si">info@carmax.si</a></div></div><div class="container footer-bottom">Neuradna demonstracijska spletna stran – oblikovni predlog, ki ni povezan z uradnim upravljavcem podjetja Car Max.</div></footer>
+</body></html>
